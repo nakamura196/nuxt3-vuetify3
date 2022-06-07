@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h1 class="mt-10 mb-10">Image API Tool</h1>
+    <h1 class="mt-10 mb-10">IIIF Image API Tool</h1>
     <v-text-field
-      label="Input Image API"
+      label="IIIF Image URL"
+      placeholder="https://iiif.dl.itc.u-tokyo.ac.jp/iiif/hyakki/images/hyakki.tif/full/full/0/default.jpg"
       variant="outlined"
       v-model="api"
       hide-details="auto"
