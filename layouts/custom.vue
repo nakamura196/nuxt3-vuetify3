@@ -13,7 +13,7 @@
           }"
           style="color: inherit; text-decoration: inherit"
         >
-          {{ "Nuxt 3 x Vuetify 3" }}
+          {{ "Cultural Japan 管理画面" }}
         </nuxt-link>
       </v-toolbar-title>
     </v-app-bar>
@@ -42,7 +42,7 @@
     <v-footer class="bg-grey-lighten-1 mt-10">
       <v-row justify="center" no-gutters>
         <v-col class="text-center text-white my-4" cols="12">
-          {{ new Date().getFullYear() }} — <strong>Satoru Nakamura</strong>
+          {{ new Date().getFullYear() }} — <strong>Cultural Japan</strong>
         </v-col>
       </v-row>
     </v-footer>
@@ -61,12 +61,12 @@ const items = [
     value: "index",
   },
   {
-    title: "About",
-    value: "about",
+    title: "アイテム更新",
+    value: "item",
   },
   {
-    title: "News",
-    value: "news",
-  },
+    title: "IIIFコレクションの更新",
+    value: "iiif",
+  }
 ];
 </script>
